@@ -1,0 +1,27 @@
+.scroll-btn {
+  position: fixed;
+  left: 90%;
+  transform: translateX(-50%);
+  bottom: 30px;
+  width: 70px;
+  height: 70px;
+  border: none;
+  border-radius: 25px;
+  background: #07142b;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+  z-index: 9999 !important; 
+}
+
+.scroll-btn:hover {
+  
+  transform: translateX(-50%) translateY(-5px);
+  background: #0f1f44;
+}
+
+body {
+  transition: var(--transicao-suave);
+}
