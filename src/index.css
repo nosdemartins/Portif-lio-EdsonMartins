@@ -59,4 +59,8 @@ body {
   background-color: var(--bg-principal) !important; 
   color: var(--texto-principal) !important;
   transition: var(--transicao-suave);
+
+}body, .app-container {
+  width: 100%; 
+  max-width: 100%;
 }
