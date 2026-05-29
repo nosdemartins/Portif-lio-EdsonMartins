@@ -141,33 +141,36 @@
 @media (max-width: 768px) {
 
   .navbar {
-    width: 100%;
-    padding: 15px;
+    padding: 12px 15px;
   }
 
   .navbar-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    
+    gap: 15px;
   }
 
   .logo {
-    font-size: 50px;
+    font-size: 28px;
     line-height: 1;
   }
 
   .nav-links {
-    width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 18px;
+    gap: 15px;
   }
 
   .nav-links a {
-    font-size: 15px;
+    font-size: 14px;
+  }
+
+  .theme-toggle {
+    padding: 10px 14px;
+    font-size: 14px;
+    border-radius: 20px;
   }
 
 }
