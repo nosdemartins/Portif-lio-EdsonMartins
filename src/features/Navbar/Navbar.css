@@ -146,8 +146,10 @@
 
   .navbar-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 15px;
   }
 
@@ -161,6 +163,7 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 15px;
+    flex-wrap: nowrap;
   }
 
   .nav-links a {
